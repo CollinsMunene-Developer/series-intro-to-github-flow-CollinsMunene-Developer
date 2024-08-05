@@ -19,6 +19,7 @@ function calculate(){
     }
     catch(error){
         display.value =  "Syntax error";
+        console.log("Operation failed")
 
     }
 }
